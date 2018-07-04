@@ -32,7 +32,7 @@ public class EntitiesStatisticHolder{
     Double minStateValue = null;
     Double averageClassification = null;
     Double varianceClassification = null;
-    Double averageStateValue = null; //ttu
+    Double averageStateValue = null; 
     Double varianceStateValue = null;
     
     Double maxClassificationByTestData = null;
@@ -56,14 +56,12 @@ public class EntitiesStatisticHolder{
     Double minTestAndTrainStateValueDifference = null;
     Double minTestAndTrainClassificationDifference = null;
     
-    //////
     Double maxWholeFeaturesSetClassificationDifference=null;
     Double minWholeFeaturesSetClassificationDifference=null;
     Double averageWholeFeaturesSetClassificationDifference=null;
     Double varianceWholeFeaturesSetClassificationDifference=null;
     
     
-    //tutaj xD
     Double maxWholeFeaturesSetValueDifference=null;
     Double minWholeFeaturesSetValueDifference=null;
     Double averageWholeFeaturesSetValueDifference=null;
@@ -105,7 +103,6 @@ public class EntitiesStatisticHolder{
     Integer minSubsetSize = null;
     Double averageSubsetDifferentation = null;
     TreeMap<Feature, Integer> featureOccurenceIndexOrdered = new TreeMap<Feature, Integer>();
-    //LinkedHashMap<Feature, Integer> featureOccurenceOrderedByValue = null;
     
     Integer maxStateVisit = null;
     Integer minStateVisit= null;
@@ -116,9 +113,7 @@ public class EntitiesStatisticHolder{
     Double varianceFirstStateVisit = null;
     Integer lastStateVisit = null;
     Double averageLastStateVisit = null;
-    Double varianceLastStateVisit = null;
-    
-    
+    Double varianceLastStateVisit = null;  
     
     Integer maxStateDiscovery= null;
     Integer minStateDiscovery= null;
@@ -156,10 +151,6 @@ public class EntitiesStatisticHolder{
         return true;
     }
     
-    
-    
-    
-    
 
     public Double getMinClassificationByTestData() {
         return minClassificationByTestData;
@@ -177,10 +168,7 @@ public class EntitiesStatisticHolder{
         this.minStateValueByTestData = minStateValueByTestData;
     }
 
-    
-    
-    
-    
+ 
     public Double getMinClassification() {
         return minClassification;
     }
@@ -197,9 +185,6 @@ public class EntitiesStatisticHolder{
         this.minStateValue = minStateValue;
     }
 
-    
-    
-    
     public TreeSet<StateActionEntity> getEntities() {
         return entities;
     }

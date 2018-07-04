@@ -7,8 +7,6 @@ package machura.przemyslaw.featuresselectionwithrl.states;
 
 import java.util.Comparator;
 import java.util.Objects;
-import java.util.TreeSet;
-import static javafx.scene.input.KeyCode.T;
 import weka.core.Attribute;
 
 /**
